@@ -1,13 +1,14 @@
-# Sample Hardhat Project
+# Build your own NFT using ERC-721
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This repo contains [LearnWeb3](https://learnweb3.io/) project material completed by [Shlok](https://github.com/shlok2740) at freshman stage chapter 10.
 
-Try running some of the following tasks:
+**NOTE**
+Firstly, Create a .env file and add two variables
+- QUICKNODE HTTP URL
+- YOUR PRIVATE KEY
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Steps -
+
+- Create a NFT Solidity smart contract.
+- Deploy the smart contract on Goreli Network
+- Verify on Goreli Etherscan
